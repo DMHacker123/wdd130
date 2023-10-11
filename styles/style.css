@@ -1,4 +1,3 @@
-<style>
 div {
     max-width: 1600px;
     height: 100px;
@@ -11,14 +10,12 @@ img {
     display: block;
     margin: 0 auto;
     width: 80%;
+    border: 4px solid steelblue;
 }
-
-
-
-</style>
 
 body {
     background-color: #fcfbfb;
+    margin: 0
 }
 
 header {
@@ -38,6 +35,7 @@ nav a{
     text-decoration: none;
     color:white;
     text-align: center;
+    padding: 25px;
 }
 nav a:hover {
     background-color: black;
@@ -83,7 +81,7 @@ h4 {
 }
 
 footer {
-    background-color: gray;
+    background-color: steelblue;
     color: white;
 }
 
@@ -139,6 +137,7 @@ footer a {
 
 h1 {
     text-align: center;
+    margin: 50px 0;
 }
 
 nav, footer {
@@ -152,6 +151,7 @@ main p {
     width: 80%;
     margin: 50px auto;
     text-align: center;
+
 }
 
 #content {
@@ -184,6 +184,7 @@ main section{
 
 footer p {
     font-size: 1.2em;
+    padding: 25px;
 }
 
 footer p a:hover {
@@ -192,6 +193,11 @@ footer p a:hover {
 
 .mountains {
     height: 725px;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 25px;
 }
 
 
