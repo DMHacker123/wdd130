@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -37,4 +38,45 @@ h2 {
     text-align: center;
     align-self: self-end;
     color: rgb(168, 4, 4);
+=======
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.container{
+    background-color: rgb(183, 174, 174);
+    height: 700px;
+    width: 700px;
+    grid-column: 3;
+    grid-row: 2;
+    
+}
+
+.cherries{
+    width: 700px;
+    height: 700px;
+    grid-column: 2;
+    grid-row: 2;
+    float: right;
+}
+
+h1 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    font-size: 200px;
+    text-align: center;
+    z-index: 1;
+}
+
+h2 {
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 100px;
+    text-align: center;
+    align-self: self-end;
+    color: rgb(168, 4, 4);
+>>>>>>> ce3b1d0d63133cf1aa716ed201ab61a86e0d430d
 }

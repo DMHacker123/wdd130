@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .img{
     width: 100%;
     aspect-ratio: 2/1;
@@ -36,3 +37,43 @@ body{
     clear: both;
 }
 
+=======
+.img{
+    width: 100%;
+    aspect-ratio: 2/1;
+    text-align: center; 
+    transform: translate(0%,-40%);
+    top: 100px  
+}
+
+.img img {
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+}
+
+body{
+    padding: 300px;
+    background-color: gray;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column img {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    grid-gap: 20px;
+
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+>>>>>>> ce3b1d0d63133cf1aa716ed201ab61a86e0d430d
