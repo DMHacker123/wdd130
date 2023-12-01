@@ -19,19 +19,25 @@ p {
   min-height: 100vh;
 }
 body {
-  background-color: rgb(39, 11, 16);
+  background-color: rgb(241, 236, 237);
 }
 a {
   color: rgb(255, 255, 255);
   margin: 40px;
   font-size: 1.5em;
 }
-h1, h2 {
-  color: yellow;
+h1 {
+  font-family: var(--heading-font);
+  color: #ffffff;
+}
+h2 {
+  font-family: var(--heading-font);
+  color: #945139;
+
   text-align: center;
 }
 nav {
-  background-color: purple;
+  background-color: #948039;
   padding: 10px;
 }
 footer p {
@@ -62,7 +68,7 @@ nav a {
 #brand {
   text-align: center;
   padding: 2em;
-  background-color: blue;
+  background-color: #948039;
 }
 
 .home-title {
@@ -127,11 +133,11 @@ nav a {
 
 }
 h1:hover {
-  color: black;
+  color: white;
 }
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  color: #948039;
   padding: 1em;
 }
 
