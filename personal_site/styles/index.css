@@ -4,13 +4,9 @@
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-}
-h2 {
-  font-family: 'Agbalumo', sans-serif;
-}
-p {
-  font-family: 'Dosis', sans-serif;
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Pacifico', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
 }
 #content {
   display: grid;
@@ -19,7 +15,12 @@ p {
   min-height: 100vh;
 }
 body {
-  background-color: rgb(241, 236, 237);
+    /* change the values below to your colors from your palette */
+    --primary-color: #947f39;
+    --secondary-color: #E7C24F;
+    --accent1-color: #A42212;
+    --accent2-color: white;
+    background-color: rgb(241, 236, 237);
 }
 a {
   color: rgb(255, 255, 255);
@@ -144,6 +145,7 @@ p {
 .container {
   position: relative;
   width: 50%;
+
 }
 
 .image {
@@ -180,7 +182,9 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
+.text {
+  font-family: 'Pacifico', sans-serif;
+}
 
 
 

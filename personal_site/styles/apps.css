@@ -56,16 +56,16 @@ p {
   
   
 body {
-  background-color: rgb(241, 236, 237);
+  background-color: white;
 }
 a {
-  color: rgb(255, 255, 255);
+  color: white;
   margin: 40px;
   font-size: 1.5em;
 }
 h1 {
   font-family: var(--heading-font);
-  color: #ffffff;
+  color: white;
 }
 h2 {
   font-family: var(--heading-font);
@@ -193,7 +193,7 @@ p {
 .square-container {
   width: 100px; /* Set the width of the square */
   height: 100px; /* Set the height of the square */
-  background-color: #eaeaea; /* Set the background color */
+  background-color: white; /* Set the background color */
   text-align: center; /* Center the text horizontally */
   line-height: 100px; /* Center the text vertically */
 }
