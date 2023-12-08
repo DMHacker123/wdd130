@@ -4,14 +4,11 @@
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Pacifico', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
 }
-h2 {
-  font-family: 'Agbalumo', sans-serif;
-}
-p {
-  font-family: 'Dosis', sans-serif;
-}
+
 /* Update the grid styles in your existing CSS */
 
 /* Update the grid styles in your existing CSS */
@@ -182,6 +179,8 @@ p {
   max-width: 700px;
   width: 50%; /* Set your desired width */
   margin: 0 auto;
+  color: #948039;
+  font-size: 10px;
 }
 
 .narrow {
