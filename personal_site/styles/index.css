@@ -20,16 +20,16 @@ body {
     --secondary-color: #E7C24F;
     --accent1-color: #A42212;
     --accent2-color: white;
-    background-color: rgb(241, 236, 237);
+    background-color: white;
 }
 a {
-  color: rgb(255, 255, 255);
+  color: white;
   margin: 40px;
   font-size: 1.5em;
 }
 h1 {
   font-family: var(--heading-font);
-  color: #ffffff;
+  color: white;
 }
 h2 {
   font-family: var(--heading-font);
