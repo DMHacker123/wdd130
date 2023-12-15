@@ -1,8 +1,9 @@
 /* styles/index.css */
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Edu+TAS+Beginner&family=Roboto:wght@100&display=swap');
-
 body {
+  margin: 0;
+  background-color: white;
     /* change the values below to your chosen font(s) */
     --heading-font: 'Pacifico', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
@@ -15,6 +16,24 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
+}
+.home-grid section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  grid-template-rows: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+.home-grid section img {
+  max-width: 100%;
+  margin-bottom: 10px;
+  order: 1;
+}
+.camping-card {
+  grid-column: 2; /* Move the .rivers-card to the second column */
+  grid-row: 2;
+  width: 50%; /* Set your desired width */
+  margin: 0 auto;
 }
 a {
   color: white;
@@ -37,6 +56,14 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+nav a:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+footer p {
+  font-size: 1em;
+  color: white;
+}
 footer a { 
   color: white;
   text-decoration: none;
@@ -44,16 +71,8 @@ footer a {
 footer a:hover {
   color: #837e6f;
 }
-footer p {
-  font-size: 1em;
-  color: white;
-}
 footer p a:hover {
-    text-decoration: underline;
-}
-.logo {
-  width: 80px;
-  border-radius: 20px;
+  text-decoration: underline;
 }
 header {
   background-color: #333;
@@ -63,37 +82,23 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-h2 {
-    margin: 0;
-}
-nav {
-  display: flex;
-}
-nav a {
-  color: white;
-  text-align: center;
-  margin-right: 20px;
-  padding: 35px;
-}
-nav a:hover {
-    background-color: white;
-    color: rgb(0, 0, 0);
+.home-title{
+  color:white;
+  font-size: 2em;
+  margin-top: 10px;
 }
 #brand {
   text-align: center;
   padding: 2em;
   background-color: #948039;
 }
-.home-title {
-  color:white;
-  font-size: 2em;
-  margin-top: 10px;
-}
 .home-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 20px;
+}
+.home-grid section:first-child {
   grid-column: span 2; 
   text-align: center;
 }
@@ -111,26 +116,14 @@ footer .social img {
   padding-top: 15px;
   border-radius: 20px;
 }
+.logo {
+  width: 80px;
+  border-radius: 20px;
+}
 .home-grid section {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.home-grid section img {
-  max-width: 100%;
-  margin-bottom: 10px; 
-  order: 1;
-}
-.home-grid section p {
-  text-align: left; 
-  order: 2;
-}
-.home-grid section:first-child {
-  grid-column: span 2; 
-  text-align: center;
-}
-nav {
-  display: flex;
 }
 nav a {
   color: white;
@@ -140,6 +133,10 @@ nav a {
   border: 2px solid white; 
   border-radius: 5px; 
 }
+.card {
+  display: center;
+  justify-content: center;
+}
 h1:hover {
   color: white;
 }
@@ -147,37 +144,12 @@ p {
   font-family: var(--paragraph-font);
   color: #948039;
   padding: 1em;
-}
-.container {
-  position: relative;
+  grid-column: 1; /* Move the .rivers-card to the second column */
+  grid-row: 2;
   width: 50%;
+  grid-row: 1;
+  float: right;
 }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: transparent;
-}
-.text {
-  color: black;
-  font-size: 80px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: 'Pacifico', sans-serif;
-}
-
 @media screen and (max-width: 900px) {
   .home-grid {
       display: block;
@@ -209,3 +181,18 @@ p {
       margin-top: 25px;
   }
 }
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
